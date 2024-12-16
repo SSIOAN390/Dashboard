@@ -1,0 +1,39 @@
+.list_header {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+.list_header h2 {
+  color: #526d82;
+}
+.list_header select {
+  border-radius: 10px;
+  border: none;
+  padding: 8px 12px;
+  border: 1px solid #dde6ed;
+  color: #526d82;
+}
+.img {
+  width: 60px;
+  height: 60px;
+  background: #dde6ed;
+  border-radius: 50px;
+}
+.list_containetr {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list {
+  display: flex;
+  padding-right: 10px;
+  justify-content: space-between;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+}
+.teacher_details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #526d82;
+}

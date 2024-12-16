@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+  height: 94vh;
+}
+.logo {
+  text-align: center;
+  padding: 20px;
+  color: rgb(77, 77, 225);
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.logoIcon {
+  font-size: 1.4rem;
+}
+.menu_Items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.menu_Items .item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #27374d;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+.menu_Items .item:hover,
+.active {
+  background-color: rgb(68, 68, 133);
+  color: white !important;
+}
